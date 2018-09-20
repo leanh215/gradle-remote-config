@@ -1,0 +1,36 @@
+ext {
+    //app
+    compileSdkVersion = 28
+    minSDKVersion = 19
+    targetSdkVersion = 28
+
+    // support
+    supportLibVersion = "28.0.0-rc02"
+
+    // dependencies injection
+    dagger2Version = "2.16"
+
+    // architecture component
+    archLifecycleVersion = "1.1.1"
+
+    // network
+    retrofitVersion = "2.3.0"
+    rxJavaAdapterVersion = "2.3.0"
+    rxAndroidVersion = "2.0.2"
+    gsonConverterVersion = "2.3.0"
+
+    // rx
+    rxJava2Version = "2.1.0"
+    rxJava2AndroidVersion = "2.1.0"
+
+    // stetho
+    stethoVersion = "1.5.0"
+    // stetho realm
+    stethoRealmVersion = "2.3.0"
+
+    // image loader
+    frescoVersion = "1.10.0"
+
+    // logger
+    loggerVersion = "4.7.1"
+}
